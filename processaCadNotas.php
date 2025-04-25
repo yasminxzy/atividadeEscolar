@@ -7,7 +7,7 @@
     $nota = $_POST['txtNota'];
     $faltas = $_POST['txtFaltas'];
 
-    $sqlNotas = "INSERT INTO tbnotas(ra ,idProfessor, idDisciplinas, nota, faltas) VALUES ('$ra','$professor', '$disciplina', '$nota', '$faltas')";
+    $sqlNotas = "INSERT INTO tbnotas(ra, idProfessor, idDisciplinas, nota, faltas) VALUES ('$ra','$professor', '$disciplina', '$nota', '$faltas')";
     $resultadoNotas = mysqli_query($conn, $sqlNotas);
 
     if(mysqli_affected_rows($conn) != 0){
