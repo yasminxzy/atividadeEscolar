@@ -1,0 +1,67 @@
+body{
+background-color: #FFC5D4;
+font-size: 20px;
+color: #665543;
+font-family: Comic Sans;
+font-weight: bold;
+}
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #FFC5D4;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  font-family: Comic Sans;
+  font-weight: bold;
+  font-size: 20px;
+  width: 25%;
+  background-color: #9E8368;
+  color: white;
+  padding: 14px 22px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #826C55;
+}
+
+.links:link, .links:visited{
+  font-weight: bold;
+  font-size: 22px;
+  width: 25%;
+  color: #FFFFFF;
+  border-radius: 10px;
+  background-color: #9E8368;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+.links: hover{
+  background-color: #826C55 !important;
+}
+.div1 {
+  margin-top: 10%;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #FCE2E9;
+  padding: 20px;
+}
+
+.div2 {
+  margin-top: 3%;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #FCE2E9;
+  padding: 20px;
+}
+
